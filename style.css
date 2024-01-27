@@ -1,7 +1,10 @@
 /* Add a black background color to the top navigation */
 .taskbar {
     background-color: #484C51;
+    width: 1440px;
+    height: 103px;
     display:flex;
+    flex-shrink: 0;
   }
   
   /* Style the links inside the navigation bar */
@@ -24,4 +27,31 @@
   .taskbar a.active {
     background-color: #99E0FF;
     color: white;
+  }
+
+  h1{
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  h2{
+    color: #000;
+    font-family: Gudea;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  h3{
+    color: #000;
+    font-family: "Martel Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
